@@ -9,5 +9,8 @@
         "src": "./server.js",
         "dest": "server.js"
       }
-    ]
+    ],
+    "scripts": {
+  "start": "NODE_OPTIONS=--openssl-legacy-provider node index.js"
+}
   }
